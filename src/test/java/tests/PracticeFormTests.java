@@ -40,7 +40,7 @@ public class PracticeFormTests extends AppManager {
                 "test passed");
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void practiceFormPositiveTestWithSoftAssert() {
         List<Hobbies> hobbies = new ArrayList<>();
         hobbies.add(Hobbies.MUSIC);
